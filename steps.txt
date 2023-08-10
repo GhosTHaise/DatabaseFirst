@@ -2,3 +2,6 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 7.0.1
 dotnet add package Microsoft.EntityFrameworkCore.Tools --version 7.0.1
 ->No Visual Studio
 dotnet ef dbcontext scaffold "Server=DESKTOP-1H35QEL\SQLEXPRESS;Database=Broadcast;Integrated Security=True;Encrypt=False;" Microsoft.EntityFrameworkCore.SqlServer -o Database -c BroadcastContext
+
+->Doc Entity EntityFramework
+https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx
